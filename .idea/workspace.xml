@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2ed5d65-dfa8-4d9d-bdb4-c4dd8b65e233" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/assignment6/ModifyJSONFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/assignment6/ModifyJSONFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input.json" afterDir="false" />
-    </list>
+    <list default="true" id="d2ed5d65-dfa8-4d9d-bdb4-c4dd8b65e233" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
