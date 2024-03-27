@@ -36,12 +36,10 @@ public class ModifyJSONFile {
     // Method to modify JSON content
     private static void modifyJSONContent(JSONObject jsonObject) {
         // Modify values of any two keys
-        jsonObject.put("key1", "new_value1");
-        jsonObject.put("key2", "new_value2");
+        jsonObject.put("1", "Amulya");
+        jsonObject.put("2", "Jangiti");
 
-        // Add two additional keys and their values
-        jsonObject.put("new_key1", "new_value1");
-        jsonObject.put("new_key2", "new_value2");
+
     }
 
     // Method to save modified JSON content to output file
