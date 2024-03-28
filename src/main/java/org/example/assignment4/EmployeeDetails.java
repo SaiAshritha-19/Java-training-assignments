@@ -56,32 +56,32 @@ public class EmployeeDetails {
                 new Employee("Bob", 40, 10, 70000, "Finance")
         );
 
-        // Total number of employees
+
         long totalEmployees = employees.stream().count();
         System.out.println("Total number of employees: " + totalEmployees);
 
-        // Group employees by department
+
         Map<String, List<Employee>> employeesByDepartment = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment));
         System.out.println("Employees grouped by department: " + employeesByDepartment);
 
-        // Total salary paid to all employees
+
         double totalSalary = employees.stream().mapToDouble(Employee::getSalary).sum();
         System.out.println("Total salary paid to all employees: " + totalSalary);
 
-        // Total salary paid to employees of each department
+
         Map<String, Double> totalSalaryByDepartment = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment,
                         Collectors.summingDouble(Employee::getSalary)));
         System.out.println("Total salary paid to employees of each department: " + totalSalaryByDepartment);
 
-        // Sort employees based on age
+
         List<Employee> employeesSortedByAge = employees.stream()
                 .sorted(Comparator.comparingInt(Employee::getAge))
                 .collect(Collectors.toList());
         System.out.println("Employees sorted by age: " + employeesSortedByAge);
 
-        // Sort employees based on experience
+
         List<Employee> employeesSortedByExperience = employees.stream()
                 .sorted(Comparator.comparingInt(Employee::getExperience))
                 .collect(Collectors.toList());
